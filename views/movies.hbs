@@ -1,11 +1,12 @@
 <div>
     <h3>Lista de películas</h3>
-    ...
-    {{#each this.movies}}
-        <button><a href="/movies/{{this._id}}">See More</a></button>
-        <img src="{{this.image}}" alt="imagen">
-        <p>{{this.title}}</p>
-    {{/each}}
 
+     <div id="peliculas-lista">
+    {{#each this.movies}}
+        <h4 id="nombre-peli">{{this.title}}</h4>
+        <img src="{{this.image}}" alt="imagen" width="100px">
+        <button id="boton"><a href="/movies/{{this._id}}">See More</a></button>
+    {{/each}}
+</div>
 
 </div> 

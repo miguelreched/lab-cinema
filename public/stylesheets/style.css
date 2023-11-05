@@ -6,3 +6,34 @@ body {
 a {
   color: #00B7FF;
 }
+
+#peliculas-lista {
+
+  text-align: justify
+  align-items: center
+  display: flex
+  justify-content: space-evenly
+  flex-wrap: wrap
+  position: absolute;
+ width: 33px
+ float: left
+ vertical-align: middle
+}
+
+#boton {
+
+  border-radius: 4px
+  padding: 5px;
+  margin-bottom: 3px
+  font-size: 12px
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  color: #4c4c4c
+  margin-left: 10px
+  
+  
+}
+
+#nombre-peli {
+  text-align: start;
+  text-wrap: nowrap
+}
