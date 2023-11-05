@@ -2,9 +2,9 @@
     <h3>Lista de películas</h3>
     ...
     {{#each this.movies}}
+        <button><a href="/movies/{{this._id}}">See More</a></button>
         <img src="{{this.image}}" alt="imagen">
         <p>{{this.title}}</p>
-        <button><a href="/movies/{{this._id}}">See More</a></button>
     {{/each}}
 
 
