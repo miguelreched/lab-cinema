@@ -1,0 +1,14 @@
+<div>
+    <img src="{{this.unaPelicula.image}}" alt="foto peli">
+    <h2>{{this.unaPelicula.title}}</h3>
+    <h3>Director: {{this.unaPelicula.director}}</h3>
+    <h4>Star</h4>
+    <ul >
+
+        {{#each this.unaPelicula.stars}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    <p>{{this.unaPelicula.description}}</p>
+    <p>{{this.unaPelicula.showtimes}}</p>    
+</div>
